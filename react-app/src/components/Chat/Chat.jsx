@@ -7,7 +7,6 @@ import Input from "../Input/Input.jsx";
 import Message from "../Message/Message.jsx";
 import { Dropdown } from "../Dropdown/Dropdown.jsx";
 import { format } from "date-fns";
-import Picker from 'emoji-picker-react';
 
 const Chat = (props) => {
 
