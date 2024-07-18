@@ -31,7 +31,8 @@ app.use(cors())
 
 const io = new Server(8000, {
   cors :{
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000',
+              'https://simple-chat-9u5jq78pt-fadhlis-projects-21b2d49d.vercel.app'],
     methods: ['GET', 'POST']
   }
 })
